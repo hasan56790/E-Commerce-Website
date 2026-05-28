@@ -1,0 +1,15 @@
+services:
+  - type: web
+    name: al-nasr-backend
+    env: node
+    buildCommand: npm install mongodb
+    startCommand: npm start
+    envVars:
+      - key: mongodb+srv://banoaysha92_db_user:<db_password>@cluster0.bim4sxg.mongodb.net/?appName=Cluster0
+        sync: false
+      - key: 14e7dYrkaLWOni8SELHsJhybl7U7MRHbNC6LSRCRhKq
+        sync: false
+      - key: rzp_live_Su1hNItefRyphU
+        sync: false
+      - key: Yo9b0HxVDIO1a8J7o9LdiLTt
+        sync: false
